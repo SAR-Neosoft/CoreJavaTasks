@@ -120,7 +120,12 @@ class Program20_Bank {
 							case 3:
 								for (String transactions : user.transactions) {
 									System.out.println(transactions);
+//									if(transactions.contains(username)) {
+//										System.out.println(transactions);
+//									}
+									
 								}
+								
 								break;
 							case 4:
 								System.out.println("Accountholder name : " + user.name);

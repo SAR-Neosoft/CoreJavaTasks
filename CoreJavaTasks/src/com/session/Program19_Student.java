@@ -55,7 +55,7 @@ public class Program19_Student {
 
 			}
 			int count = 0;
-			System.out.println("Students  email id from mail");
+			System.out.println("Students  email id from gmail");
 			for (Program19_Student std : St) {
 				Pattern p = Pattern.compile("@g(oogle)?mail\\.com$");
 				Matcher m = p.matcher(std.email);

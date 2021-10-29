@@ -41,7 +41,7 @@ class User implements Account {
 	@Override
 	public void deposit(double amount, Date date) {
 		balance += amount;
-		addAmount(String.format(
+		addAmount(String.format(username+" "+
 				amount + " credited to your account. Balance - "
 						+ balance+ " as on " + "%1$tD" + " at " + "%1$tT.",
 				date));
@@ -54,7 +54,7 @@ class User implements Account {
 			return;
 		}
 		balance -= amount;
-		addAmount(String.format(
+		addAmount(String.format(username+" "+
 				amount + " debited from your account. Balance - "
 						+balance + " as on " + "%1$tD" + " at " + "%1$tT.",
 				date));

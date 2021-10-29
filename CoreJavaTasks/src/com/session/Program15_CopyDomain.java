@@ -24,7 +24,7 @@ public class Program15_CopyDomain {
 				br3.newLine();
 			}
 			line = br2.readLine();
-			
+
 		}
 
 		br3.close();
@@ -49,7 +49,8 @@ public class Program15_CopyDomain {
 				br1.write(str[i]);
 				br1.newLine();
 				br1.close();
-
+				//System.out.println("==============");
+				
 				BufferedReader br2 = new BufferedReader(new FileReader(file1));
 				String line;
 				File file2 = new File("resource/domain.txt");
